@@ -5,6 +5,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/tvInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="25sp"
@@ -12,9 +13,10 @@
         android:background="@color/Black"
         android:gravity="end"
         android:padding="8dp"
-        android:text="23132"
+        android:text=""
         />
     <TextView
+        android:id="@+id/tvOutput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="50sp"
@@ -22,7 +24,7 @@
         android:background="@color/Black"
         android:padding="8dp"
         android:gravity="end"
-        android:text="23132"
+        android:text=""
         />
 
 
